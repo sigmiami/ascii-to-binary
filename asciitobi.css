@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: white;
+}
+
+
+
+.wrapper{
+    
+    background-color: white;
+    
+}
+
+.userInput{
+    margin: 30px;
+    padding:10px;
+    background-color: white;
+
+    text-align: center;
+}
+
+#input1{
+   width:25%;
+   
+}
+#input1[type=text]{
+border: 2px solid #aaa;
+border-radius: 5px;
+margin:8px 0;
+padding: 8px;
+outline: none;
+box-sizing: border-box;
+transition: .3s;
+
+}
+
+#input1[type=text]:focus{
+border-color: dodgerblue;
+box-shadow: 0 0 8px 0 dodgerblue;
+
+}
+
+#convert{
+
+    background-color: dodgerblue;
+    border-radius: 5px;
+    outline: none;
+    padding: 8px;
+
+}
+
+#convert:hover{
+
+    color: white;
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+
+}
+
+
+.container{
+    
+    background-color: white;
+    color: dodgerblue;
+    border: 2px solid #aaa;
+    border-radius: 8px;
+    font-size: 1.5em;
+    font-weight: bold;
+    max-width: 600px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+
+}
+
